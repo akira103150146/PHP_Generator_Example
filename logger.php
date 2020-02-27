@@ -9,3 +9,5 @@ function logger($fileName) {
 $logger = logger('log');
 $logger->send('Foo');
 $logger->send('Bar');
+//echo $logger->valid();
+//$logger->send('exit');
